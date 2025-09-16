@@ -2,7 +2,7 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-resource "aws_instance" "test" {
+resource "aws_instance" "prod" {
     ami = "ami-0b982602dbb32c5bd"
     instance_type = "t2.micro"
     tags = {
